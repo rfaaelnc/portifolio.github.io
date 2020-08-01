@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+header {
+    /* background-color: #159957;
+background-image: linear-gradient(120deg, #155799, #159957); */
+    background-color: #111111;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+    padding: 0 15px;
+
+}
+
+.header-container::after {
+    content: "";
+    background: rgba(255, 255, 255, 0.509804);
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 9px;
+    z-index: 100;
+    bottom: -9px;
+    left: 0;
+}
+
+#header .box.logo {
+    padding: 0 45px;
+}
+
+#header .project-name {
+    font-size: 2.25rem;
+    color: #ffffff;
+    margin: 0;
+    /* padding:30px; */
+    font-size: 0;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+    /* background-color: #f0f0f0; */
+    background-color: #414141;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: rgba(65,65,65,1);
+    background: radial-gradient(circle, rgb(113 113 113) 40%, rgba(65,65,65,1) 100%);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+div#myCarousel {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+#myCarousel .item {
+
+    /* height: 40vw; */
+
+}
+
+section.main-content {
+    padding-top: 30px;
+}
+
+.item.grid_2.active>div {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.grid_2>div {
+
+    padding: 0;
+    overflow: hidden;
+    /* flex:50%; */
+
+}
+
+.grid_2 .item-img {
+
+    overflow: hidden;
+    max-width: 565px;
+
+}
+
+.grid_2>div img {
+
+    /* max-width:100%; */
+    width: auto;
+    height: 33vw;
+    max-height: 461px;
+
+}
+
+footer {
+    margin-top: auto;
+    background-color: #111111;
+    /* height: 115px; */
+    max-height: 68px;
+    min-height: 68px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: rgb(199,192,192);
+    
+    background: radial-gradient(circle, rgb(255 247 247) 0%, rgba(65,65,65,0) 100%);
+    background: radial-gradient(circle, rgb(107 107 107) 0%, rgba(65,65,65,0) 100%);
+    background: radial-gradient(circle, rgb(0 0 0 / 36%) 0%, rgba(65,65,65,0) 100%);
+
+}
+
+.menu-main {
+    display: flex;
+    align-items: center;
+    padding-right: 35px;
+}
+
+.menu-nav {
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    min-width: 200px;
+
+}
+
+.menu-nav li {
+    /* flex-basis: 10%; */
+    /* flex-basis: 63%; */
+    /* flex-basis: 100px; */
+    padding: 0 31px;
+    text-align: center;
+}
+
+.menu-nav li a {
+    color: #ffffff;
+}
+
+.title-pag {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    /* display: none; */
+}
+
+.descricao {
+    padding:0;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+    height: 83%;
+}
+
+h2.title-pag {
+    position: relative;
+}
+
+h2.title-pag::before {
+    content: "TRABALHOS RECENTES";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: -moz-fit-content;
+    height: fit-content;
+    /* margin: auto; */
+    color: #FFF;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: auto;
+}
+
+
+/* LOADING TESTE */
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('http://i.stack.imgur.com/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* enquanto estiver carregando, o scroll da página estará desativado */
+body.loading {
+    overflow: hidden;   
+}
+
+/* a partir do momento em que o body estiver com a classe loading,  o modal aparecerá */
+body.loading .modal {
+    display: block;
+}
+
+/**/
+
+.loadingoverlay {
+    /* background-color: #111111cc !important; */
+    background-color: rgb(113 113 113);
+}
+
+.noloading {
+    display:none;
+}

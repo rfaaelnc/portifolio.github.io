@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Rafael N by rfaaelnc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+    header { 
+        /* background-color: #159957;
+        background-image: linear-gradient(120deg, #155799, #159957); */
+        background-color: #111111;
+        margin: 0;
+        padding:0;
+    }
+    .header-container { 
+      max-width: 1170px;
+      width:100%;
+      margin: 0 auto;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height:84px;
+      padding:0 15px;
+      
+    }
+
+    .header-container::after {
+      content: "";
+      background: rgba(255, 255, 255, 0.509804);
+      position: absolute;
+      display: block;
+      width:100%;
+      height:9px;
+      z-index: 100;
+      bottom:-9px;
+      left: 0;
+    }
+
+    #header .box.logo {
+    padding: 0 45px;
+    }
+
+    #header .project-name {
+    font-size: 2.25rem;
+    color: #ffffff;
+    margin: 0;
+    /* padding:30px; */
+
+    }
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #000;
+        /* background-color: #f0f0f0; */
+        background-color: #414141;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    html,body {
+      height: 100%;
+    }
+
+    #myCarousel .item {
+
+      height:40vw;
+
+    }
+
+    section.main-content {
+      padding-top: 30px;
+    }
+
+    .item.grid_2.active > div {
+
+      display:flex;
+      flex-direction: row;
+
+    }
+    .grid_2 > div {
+
+      padding:0;
+      overflow: hidden;
+      /* flex:50%; */
+
+    }
+    
+    .grid_2  .item-img {
+
+      overflow: hidden;
+
+    }
+    
+    .grid_2 > div img {
+
+    /* max-width:100%; */
+    width:auto;
+    height:40vw;
+
+    }
+
+    footer {
+      margin-top: auto;
+      background-color: #111111;
+      height:115px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color:#ffffff;
+    }
+
+    .menu-main {
+      display: flex;
+      align-items: center;
+      padding-right: 35px;
+    }
+
+    .menu-nav {
+
+      list-style-type: none;
+      padding:0;
+      margin:0;
+      display: inline-flex;
+      min-width: 200px;
+      
+    }
+
+    .menu-nav li {
+    /* flex-basis: 10%; */
+    /* flex-basis: 63%; */
+    /* flex-basis: 100px; */
+    padding:0 31px;
+    text-align: center;
+    }
+
+    .menu-nav li a {
+      color:#ffffff;
+    }
+
+    .title-pag {
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+      margin-top: 40px;
+      margin-bottom: 15px;
+      display: none;
+    }
+    </style>
+    
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-container">
+        <div class="box logo">
+          <h1 class="project-name">Rafael N</h1>
+        </div>
+        
+       <nav class="menu-main">
+         <ul class="menu-nav">
+           <li>
+             <a href="">Teste</a>
+           </li>
+           <li>
+             <a href="">Teste</a>
+           </li>
+           <li>
+             <a href="">Teste</a>
+           </li>
+         </ul>
+       </nav>
+      </div>
+    </header>
+
+<h2 class="title-pag">
+  <svg width="1170" height="132" viewBox="0 0 1170 132" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M771.407 0H1072.83V12H1170V121H372.814V132H71.3898V121H0V12H771.407V0Z" fill="black" fill-opacity="0.498039"/>
+    <path d="M412.046 57.572H404.378V55.088H422.378V57.572H414.782V80H412.046V57.572ZM425.919 55.088H435.135C437.799 55.088 439.791 55.712 441.111 56.96C442.431 58.184 443.091 60.08 443.091 62.648C443.091 66.512 441.567 68.924 438.519 69.884L443.307 80H440.247L435.747 70.46H428.691V80H425.919V55.088ZM435.171 68.012C438.555 68.012 440.247 66.26 440.247 62.756C440.247 59.276 438.543 57.536 435.135 57.536H428.691V68.012H435.171ZM460.853 73.592H450.197L448.397 80H445.661L452.501 55.088H458.549L465.389 80H462.653L460.853 73.592ZM450.809 71.108H460.241L456.461 57.464H454.589L450.809 71.108ZM469.302 55.088H478.338C480.858 55.088 482.718 55.616 483.918 56.672C485.142 57.704 485.754 59.324 485.754 61.532C485.754 62.996 485.49 64.172 484.962 65.06C484.434 65.924 483.63 66.62 482.55 67.148C483.894 67.628 484.89 68.348 485.538 69.308C486.186 70.268 486.51 71.564 486.51 73.196C486.51 75.548 485.85 77.276 484.53 78.38C483.234 79.46 481.326 80 478.806 80H469.302V55.088ZM478.482 66.14C479.994 66.14 481.11 65.78 481.83 65.06C482.55 64.316 482.91 63.212 482.91 61.748C482.91 60.26 482.538 59.192 481.794 58.544C481.05 57.872 479.862 57.536 478.23 57.536H472.074V66.14H478.482ZM478.698 77.552C480.33 77.552 481.566 77.204 482.406 76.508C483.27 75.812 483.702 74.684 483.702 73.124C483.702 71.444 483.234 70.268 482.298 69.596C481.362 68.9 480.102 68.552 478.518 68.552H472.074V77.552H478.698ZM504.13 73.592H493.474L491.674 80H488.938L495.778 55.088H501.826L508.666 80H505.93L504.13 73.592ZM494.086 71.108H503.518L499.738 57.464H497.866L494.086 71.108ZM526.296 77.516V80H512.58V55.088H515.352V77.516H526.296ZM547.986 55.088V80H545.25V68.732H532.578V80H529.806V55.088H532.578V66.248H545.25V55.088H547.986ZM562.955 80.36C560.483 80.36 558.527 79.916 557.087 79.028C555.647 78.14 554.615 76.784 553.991 74.96C553.391 73.112 553.091 70.676 553.091 67.652C553.091 64.652 553.403 62.216 554.027 60.344C554.651 58.448 555.683 57.044 557.123 56.132C558.563 55.196 560.495 54.728 562.919 54.728C565.343 54.728 567.275 55.196 568.715 56.132C570.155 57.044 571.187 58.448 571.811 60.344C572.459 62.216 572.783 64.676 572.783 67.724C572.783 70.772 572.471 73.208 571.847 75.032C571.247 76.856 570.227 78.2 568.787 79.064C567.371 79.928 565.427 80.36 562.955 80.36ZM562.955 77.912C564.779 77.912 566.183 77.576 567.167 76.904C568.175 76.232 568.883 75.176 569.291 73.736C569.699 72.272 569.903 70.268 569.903 67.724C569.903 65.18 569.687 63.152 569.255 61.64C568.847 60.128 568.139 59.012 567.131 58.292C566.123 57.548 564.719 57.176 562.919 57.176C561.119 57.176 559.715 57.536 558.707 58.256C557.699 58.976 556.979 60.092 556.547 61.604C556.139 63.116 555.935 65.132 555.935 67.652C555.935 70.172 556.139 72.176 556.547 73.664C556.955 75.128 557.663 76.208 558.671 76.904C559.703 77.576 561.131 77.912 562.955 77.912ZM584.633 80.324C582.953 80.324 580.757 80.12 578.045 79.712L576.749 79.532L577.037 77.228C580.325 77.66 582.809 77.876 584.489 77.876C588.041 77.876 589.817 76.208 589.817 72.872C589.817 71.96 589.649 71.24 589.313 70.712C589.001 70.184 588.449 69.752 587.657 69.416C586.889 69.08 585.761 68.768 584.273 68.48C582.305 68.072 580.769 67.604 579.665 67.076C578.585 66.548 577.793 65.84 577.289 64.952C576.785 64.064 576.533 62.876 576.533 61.388C576.533 56.924 579.209 54.692 584.561 54.692C586.409 54.692 588.917 54.932 592.085 55.412L591.833 57.752C588.377 57.344 586.013 57.14 584.741 57.14C581.141 57.14 579.341 58.496 579.341 61.208C579.341 62.24 579.509 63.032 579.845 63.584C580.205 64.112 580.805 64.544 581.645 64.88C582.485 65.216 583.817 65.588 585.641 65.996C587.417 66.404 588.785 66.86 589.745 67.364C590.729 67.868 591.449 68.54 591.905 69.38C592.361 70.196 592.589 71.288 592.589 72.656C592.589 77.768 589.937 80.324 584.633 80.324ZM605.287 55.088H614.503C617.167 55.088 619.159 55.712 620.479 56.96C621.799 58.184 622.459 60.08 622.459 62.648C622.459 66.512 620.935 68.924 617.887 69.884L622.675 80H619.615L615.115 70.46H608.059V80H605.287V55.088ZM614.539 68.012C617.923 68.012 619.615 66.26 619.615 62.756C619.615 59.276 617.911 57.536 614.503 57.536H608.059V68.012H614.539ZM630.242 57.536V66.14H640.466V68.552H630.242V77.552H642.626V80H627.47V55.088H642.626V57.536H630.242ZM655.583 80.36C653.039 80.36 651.083 79.892 649.715 78.956C648.347 77.996 647.411 76.604 646.907 74.78C646.403 72.956 646.151 70.544 646.151 67.544C646.151 64.568 646.403 62.168 646.907 60.344C647.411 58.496 648.323 57.104 649.643 56.168C650.987 55.208 652.907 54.728 655.403 54.728C657.347 54.728 659.591 54.992 662.135 55.52L662.027 57.86C659.603 57.428 657.515 57.212 655.763 57.212C653.891 57.212 652.475 57.548 651.515 58.22C650.555 58.892 649.895 59.972 649.535 61.46C649.199 62.948 649.031 65.108 649.031 67.94C649.031 70.388 649.187 72.308 649.499 73.7C649.835 75.068 650.507 76.112 651.515 76.832C652.523 77.528 654.047 77.876 656.087 77.876C657.743 77.876 659.723 77.66 662.027 77.228L662.135 79.604C659.663 80.108 657.479 80.36 655.583 80.36ZM669.441 57.536V66.14H679.665V68.552H669.441V77.552H681.825V80H666.669V55.088H681.825V57.536H669.441ZM704.784 55.088V80H699.708L690.024 57.536H689.34V80H686.568V55.088H691.752L701.328 77.552H702.048V55.088H704.784ZM715.972 57.572H708.304V55.088H726.304V57.572H718.708V80H715.972V57.572ZM732.617 57.536V66.14H742.841V68.552H732.617V77.552H745.001V80H729.845V55.088H745.001V57.536H732.617ZM756.406 80.324C754.726 80.324 752.53 80.12 749.818 79.712L748.522 79.532L748.81 77.228C752.098 77.66 754.582 77.876 756.262 77.876C759.814 77.876 761.59 76.208 761.59 72.872C761.59 71.96 761.422 71.24 761.086 70.712C760.774 70.184 760.222 69.752 759.43 69.416C758.662 69.08 757.534 68.768 756.046 68.48C754.078 68.072 752.542 67.604 751.438 67.076C750.358 66.548 749.566 65.84 749.062 64.952C748.558 64.064 748.306 62.876 748.306 61.388C748.306 56.924 750.982 54.692 756.334 54.692C758.182 54.692 760.69 54.932 763.858 55.412L763.606 57.752C760.15 57.344 757.786 57.14 756.514 57.14C752.914 57.14 751.114 58.496 751.114 61.208C751.114 62.24 751.282 63.032 751.618 63.584C751.978 64.112 752.578 64.544 753.418 64.88C754.258 65.216 755.59 65.588 757.414 65.996C759.19 66.404 760.558 66.86 761.518 67.364C762.502 67.868 763.222 68.54 763.678 69.38C764.134 70.196 764.362 71.288 764.362 72.656C764.362 77.768 761.71 80.324 756.406 80.324Z" fill="white"/>
+    </svg>    
+</h2>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+     <!--<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>-->
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+       <!--<div class="item active">
+        <img src="la.jpg" alt="Los Angeles" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="chicago.jpg" alt="Chicago" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="ny.jpg" alt="New york" style="width:100%;">
+      </div>-->
+
+      <div class="item grid_2 active">
+
+        <div class="row">
+          <div class="item-img">
+        <img src="ny.jpg" alt="New york" >
+      </div>
+      <div class="item-img">
+        <img src="chicago.jpg" alt="Chicago" >
+      </div>
+    </div>
+
+      </div>
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+    <section class="main-content">
+      <p>Portfólio em atualização</p>
+
+      
+    
+
+    <!--<div class="item">
+      <div class="col-sm-6">
+        <img src="ny.jpg" alt="New york" style="width:100%;">
+      </div>
+      <div class="col-sm-6">
+        <img src="ny.jpg" alt="New york" style="width:100%;">
+      </div>
+    </div> -->
+
+
+    </section>
+
+
+
+      <footer class="site-footer">
+
+        <div class="foo-content">
+
+          <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+
+        </div>
+
+      </footer>
+
+  
+  </body>
+</html>
